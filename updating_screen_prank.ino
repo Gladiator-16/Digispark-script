@@ -25,7 +25,7 @@ DigiKeyboard.sendKeyStroke(KEY_R,MOD_GUI_LEFT | 0);
 DigiKeyboard.delay(500);
 DigiKeyboard.print(F(" http://fakeupdate.net/win10/index.html"));
 DigiKeyboard.sendKeyStroke(KEY_ENTER,0);
-
+ DigiKeyboard.sendKeyStroke(KEY_F11);
 }
 
 
