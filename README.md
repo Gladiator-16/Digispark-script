@@ -3,3 +3,5 @@
 
 <h2>DIGISPARK-scripts</h2>
 This is a set of hand-written DigiSpark sketches for the Arduino IDE that utilize the DigiKeyboard.h library making the DigiSpark to act as a keyboard and execute a variety of actions. If you have found a USB Rubber Ducky scipt that you want to convert to a DigiSpark sketch, you can always use digiQuack, a tool which can be found in my repositories.
+<br><br>
+i have have tried to convert some ducky scripts to arduino but only a few because i have just started to program digispark scripts to arduino
