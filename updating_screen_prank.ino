@@ -12,23 +12,18 @@
 
 void setup() {
 
-DigiKeyboard.delay(5000);
-DigiKeyboard.sendKeyStroke(0);
-
-// fake update LUL
-// author: Judge2020 https://judge2020.com
-// edited by: DanielL99 on github (thanks!)
-//  
-// let the ducky HID enumerate
-DigiKeyboard.delay(3000);
-DigiKeyboard.sendKeyStroke(KEY_R,MOD_GUI_LEFT | 0);
-DigiKeyboard.delay(500);
-DigiKeyboard.print(F(" http://fakeupdate.net/win10/index.html"));
-DigiKeyboard.sendKeyStroke(KEY_ENTER,0);
- DigiKeyboard.sendKeyStroke(KEY_F11);
 }
 
 
 void loop() {
-
+DigiKeyboard.delay(500);
+DigiKeyboard.sendKeyStroke(0);
+DigiKeyboard.delay(500);
+DigiKeyboard.sendKeyStroke(KEY_R,MOD_GUI_LEFT | 0);
+DigiKeyboard.delay(500);
+DigiKeyboard.print(F(" http://fakeupdate.net/win10/index.html"));
+DigiKeyboard.sendKeyStroke(KEY_ENTER,0);
+DigiKeyboard.delay(500);
+ DigiKeyboard.sendKeyStroke(KEY_F11);
+ for(;;){ /*empty*/ }
 }
