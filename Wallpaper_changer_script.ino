@@ -3,7 +3,8 @@
 
 //Original Author: CedArctic
 
-//Optimized By: Yosuu
+//Enhanced By: Gladiator-16
+
 
 #include "DigiKeyboard.h"
 void setup() {
