@@ -7,7 +7,8 @@
 
 #include "DigiKeyboard.h"
 void setup() {
-  //empty
+   pinMode(0, OUTPUT);
+  pinMode(1, OUTPUT);
 }
 void loop() {
   DigiKeyboard.sendKeyStroke(0);
@@ -55,5 +56,12 @@ void loop() {
   DigiKeyboard.sendKeyStroke(81);
   DigiKeyboard.delay(200);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
+  //after the script is executed the LED will start blinking
+  digitalWrite(0, HIGH);
+  digitalWrite(1, HIGH);
+  delay(1000);
+  digitalWrite(0, LOW);
+  digitalWrite(1, LOW);
+  delay(1000);
   for(;;){ /*empty*/ }
 }
