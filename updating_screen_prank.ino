@@ -21,7 +21,7 @@ DigiKeyboard.sendKeyStroke(0);
 DigiKeyboard.delay(500);
 DigiKeyboard.sendKeyStroke(KEY_R,MOD_GUI_LEFT | 0);
 DigiKeyboard.delay(500);
-DigiKeyboard.print(F(" http://fakeupdate.net/win10/index.html"));
+DigiKeyboard.print(F(" iexplore http://fakeupdate.net/win10/index.html")); //over here it is goin to start with internet explorer just remove iexplorer and it will use the default browser
 DigiKeyboard.sendKeyStroke(KEY_ENTER,0);
 DigiKeyboard.delay(500);
  DigiKeyboard.sendKeyStroke(KEY_F11);
